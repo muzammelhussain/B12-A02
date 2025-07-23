@@ -35,6 +35,11 @@
     color: rgba(0, 0, 0, 0.2);
 }
 
+.text-center {
+    text-align: center;
+}
+
+
 /* navbar styles */
 
 .nav-items a {
@@ -65,6 +70,61 @@
 .banner-title span {
     color: #E95A08;
 }
+
+/* plants card styles */
+
+.plants-card {
+    margin-top: 120px;
+}
+
+.plant-description {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.plant-title span {
+      color: #E95A08;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card-design {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    margin-top: 30px;
+}
+
+.flower-name {
+    font-size: 22px;
+    font-weight: medium;
+    color: #111111;
+    margin: 0;
+    padding: 10px;
+}
+
+.flower-rate {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.btn-cart {
+    border: none;
+    padding: 20px 0;
+    background-color: #E95A08;
+    color: white;
+    font-size: 16px;
+    font-weight:400 ;
+}
+
+
+
 
 
 
