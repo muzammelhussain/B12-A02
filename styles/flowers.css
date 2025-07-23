@@ -1,0 +1,80 @@
+/* common styles */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.view-pc {
+    max-width: 1140px;
+    margin: 30px auto;
+}
+
+.text-1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-2 {
+    font-size: 22px ;
+    font-family: inter;
+    font-size: regular;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* navbar styles */
+
+.nav-items a {
+    text-decoration: none;
+    padding: 5px;
+      color: #8987A1;
+}
+
+.nav-cart i {
+    margin-right: 8px;
+}
+
+/* banner styles */
+
+.banner {
+    margin-top: 120px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-title {
+    font-size: 65px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.banner-title span {
+    color: #E95A08;
+}
+
+
+
+/* mobile-view */
+@media screen and (max-width:394px) {
+    .nav-a-tag {
+        display: none;
+    }
+
+    .banner .flex {
+        flex-direction: column;
+    }
+}
