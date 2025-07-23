@@ -39,7 +39,9 @@
     text-align: center;
 }
 
-
+body {
+    background-color: #F5F8FF;
+}
 /* navbar styles */
 
 .nav-items a {
@@ -123,7 +125,15 @@
     font-weight:400 ;
 }
 
+/* plants lover section */
 
+.plants-lover{
+    margin-top: 210px;
+}
+
+.plants-lover-content {
+    max-width: 540px;
+}
 
 
 
