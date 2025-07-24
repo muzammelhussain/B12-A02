@@ -191,7 +191,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 197px;
-    
+    background-color: rgba(3, 3, 3, 0.7);
+    background-blend-mode: darken;
 }
 
 .zabo-plant {
@@ -200,7 +201,8 @@ body {
     background-size: cover;
     grid-column: 2;
     grid-row: 1 / span 2;
-    
+    background-color: rgba(3, 3, 3, 0.7);
+    background-blend-mode: darken;
 }
 
 .ana-plant {
@@ -208,7 +210,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 197px;
-    
+    background-color: rgba(3, 3, 3, 0.7);
+    background-blend-mode: darken;
 }
 
 .ana-plant, .bloom-plant p, a {
@@ -310,6 +313,10 @@ body {
 
 /* mobile-view */
 @media screen and (max-width:394px) {
+    .navbar img {
+        width: 63px;
+        height: 38px;
+    }
     .nav-a-tag {
         display: none;
     }
@@ -322,7 +329,11 @@ body {
      /*banner sectioin  */
     .banner {
         flex-direction: column-reverse;
+        margin-top: 50px;
         
+    }
+    .banner img {
+        width: 100%;
     }
 
     .banner-content{
@@ -333,6 +344,7 @@ body {
         margin-left: 20px;
         font-size: 24px;
         font-weight: bold;
+        width: 191px;
     }
 
     .banner-content p{
@@ -342,32 +354,42 @@ body {
     }
     /* Plants card section */
 
+    .plants-card{
+        margin-top: 50px;
+    }
     .plant-title{
         text-align: center;
         font-size: 24px;
         font-weight: bold;
-        margin-left: 60px;
+        
     }
     .plant-description {
         text-align: center;
         font-size: 14px;
         font-weight: regular;
-        margin-left: 90px;
+        margin: ;
+        max-width: 336px;
     }
     .card-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
-        margin-left: 30px;
+        max-width: 362px;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .card-design{
         max-width:180px ;
-        margin-left: 5px;
+        margin-left: 2px;
 
     }
 
     /* plants lover section */
-
+    
+    .lover-img {
+        width: 358px;
+        height: 396px;
+    }
     .trusted-badge {
         display: none;
     }
@@ -379,20 +401,25 @@ body {
     .plants-lover-content h1 {
         font-size: 24px;
         font-weight: bold;
-        margin-left: 5px;
+        margin-left: 10px;
     }
     .plants-lover-content li {
-        list-style: ;
+        list-style-type: disc ;
     }
     .plants-lover-content p {
         font-size: 14px;
         font-weight: regular;
         font-family: inter;
         padding: 10px;
+        list-style-type: disc ;
+        color: rgba(0, 0, 0, 0.2);
     }
 
     /* latest deals section */
 
+    .latest-deals {
+        margin: 50px auto;
+    }
     .latest-deals h1 {
         font-size: 24px;
         font-weight: bold;
@@ -407,7 +434,7 @@ body {
         grid-template-columns: repeat(1, 1fr);
         padding: 24px;
         gap: 20px;
-        margin-left: 50px;
+        margin-top: 30px;
     }
 
     .zabo-plant {
@@ -432,6 +459,7 @@ body {
         font-size: 16px;
         font-weight: 600;
     }
+    
     /* join section */
     .join {
         width: 100%;
