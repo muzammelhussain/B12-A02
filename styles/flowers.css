@@ -258,6 +258,33 @@ body {
     padding: 10px 66px;
     background-color: #E95A08;
     }
+
+
+/* footer section styles */
+
+.footer {
+    gap: 60px;
+    align-items: start;
+}
+.footer-logo {
+    width: 360px;
+}
+
+.footer-items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+.footer-items a {
+    text-decoration: none;
+    padding: 5px;
+      color: #8987A1;
+}
+
+.social-media img {
+    padding: 10px;
+}
+
 /* mobile-view */
 @media screen and (max-width:394px) {
     .nav-a-tag {
