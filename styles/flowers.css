@@ -135,6 +135,25 @@ body {
     margin-top: 210px;
 }
 
+.plants-lover-img {
+    position: relative;
+}
+
+.lover-img {
+    width: ;
+    display: block;
+}
+
+.trusted-badge {
+    position: absolute;
+  top: -110px;
+  left: 370px;
+  width: 260px; /* adjust based on image size */
+  height: auto;
+  z-index: 2;
+}
+
+
 .plants-lover-content {
     max-width: 540px;
 }
@@ -218,14 +237,17 @@ body {
 /* Join section styles */
 
 .join {
+
+    background-image: url(../assets/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
     position: relative;
-}
-.join img {
-    width: 100%;
     height: 533px;
-    position: relative;
-    z-index: 1;
-   
 }
 
 .join-content {
@@ -257,6 +279,7 @@ body {
     border: none;
     padding: 10px 66px;
     background-color: #E95A08;
+    color: white;
     }
 
 
