@@ -313,13 +313,13 @@ body {
     .nav-a-tag {
         display: none;
     }
-
-    .navbar {
-        
-        justify-content: space-between;
-        align-items: center;
+    .nav-cart{
+      padding-left: 48px;
     }
-
+    .nav-logo {
+        margin-left: 15px;
+    }
+     /*banner sectioin  */
     .banner {
         flex-direction: column-reverse;
         
@@ -340,6 +340,7 @@ body {
         font-size: 14px;
         
     }
+    /* Plants card section */
 
     .plant-title{
         text-align: center;
@@ -356,11 +357,122 @@ body {
     .card-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+        margin-left: 30px;
     }
 
     .card-design{
         max-width:180px ;
         margin-left: 5px;
 
+    }
+
+    /* plants lover section */
+
+    .trusted-badge {
+        display: none;
+    }
+    .plants-lover {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .plants-lover-content h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    .plants-lover-content li {
+        list-style: ;
+    }
+    .plants-lover-content p {
+        font-size: 14px;
+        font-weight: regular;
+        font-family: inter;
+        padding: 10px;
+    }
+
+    /* latest deals section */
+
+    .latest-deals h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .deals-description {
+        font-size: 14px;
+        font-weight: regular;
+        text-align: center;
+    }
+    .latest-deals-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 24px;
+        gap: 20px;
+        margin-left: 50px;
+    }
+
+    .zabo-plant {
+        grid-column: 1;
+        grid-row: 1;
+        height: 197px;
+       
+    }
+
+    .zabo-plant p {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+
+    .zabo-plant a{
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ana-plant, .bloom-plant a {
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /* join section */
+    .join {
+        width: 100%;
+        height: 276px;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    .join-content {
+        left: 70px;
+        top: 80px;
+    }
+
+    .join-content h1 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+        
+    }
+
+    .email {
+        padding: 10px;
+    }
+
+    .btn {
+        padding: 15px 10px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* footer section */
+    .footer {
+        flex-direction: column;
+        gap: 16px;
+        margin-left: 20px;
+    }
+
+    .footer-items {
+        grid-template-columns: repeat(1,1fr);
+        gap: 20px;
     }
 }
